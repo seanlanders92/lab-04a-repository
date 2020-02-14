@@ -1,0 +1,119 @@
+p {
+    border: black 1px solid;
+  }
+  
+  nav {
+    background: lightsalmon;
+  }
+  
+  div:first-of-type {
+    background: orchid;
+  }
+  
+  section {
+    background: palegreen;
+  }
+  
+  section:last-of-type {
+    background: purple;
+  }
+  
+  article > p:first-of-type {
+    background: blanchedalmond;
+  }
+  
+  article > p:nth-last-of-type(2) {
+    background: chartreuse;
+  }
+  
+  article > p:nth-last-of-type(3){
+    background: crimson;
+  }
+  
+  article > p:last-of-type {
+    background: cyan;
+  }
+  
+  footer {
+    background: darkorange;
+  }
+  
+  @media only screen and (min-width: 768px) {
+  
+    nav {
+      background: lightseagreen;
+    }
+  
+    div:first-of-type {
+      background: limegreen;
+    }
+  
+    section {
+      background: magenta;
+    }
+  
+    section:last-of-type {
+      background: maroon;
+    }
+  
+    article > p:first-of-type {
+      background: midnightblue;
+    }
+  
+    article > p:nth-last-of-type(2) {
+      background: peru;
+    }
+  
+    article > p:nth-last-of-type(3){
+      background: rebeccapurple;
+    }
+  
+    article > p:last-of-type {
+      background: seagreen;
+    }
+  
+    footer {
+      background: thistle;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 960px) {
+  
+    nav {
+      background: rgb(201, 13, 169);
+    }
+  
+    div:first-of-type {
+      background: rgb(160, 143, 253);
+    }
+  
+    section {
+      background: rgb(51, 92, 49);
+    }
+  
+    section:last-of-type {
+      background: rgb(251, 255, 0);
+    }
+  
+    article > p:first-of-type {
+      background: rgb(77, 48, 4);
+    }
+  
+    article > p:nth-last-of-type(2) {
+      background: rgb(90, 7, 7);
+    }
+  
+    article > p:nth-last-of-type(3){
+      background: rgb(190, 92, 27);
+    }
+  
+    article > p:last-of-type {
+      background: rgb(212, 241, 248);
+    }
+  
+    footer {
+      background: rgb(36, 3, 43);
+    }
+  
+  }
